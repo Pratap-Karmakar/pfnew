@@ -29,7 +29,7 @@ export default function Header({ }: Props) {
     }
 
     return (
-        <header className='sticky top-0 flex items-start justify-between  mx-auto z-20 xl:items-center p-10'>
+        <header className='sticky top-0 flex items-start justify-between  mx-auto z-[100] shadow-lg xl:items-center h-14 bg-teal-100 '>
             <div className='flex flex-row items-center justify-center'>
                 <SocialIcon
                     url="https://www.linkedin.com/in/pratap-karmakar-2b25b2103/"
@@ -48,11 +48,11 @@ export default function Header({ }: Props) {
                 />
             </div>
 
-            <div className='flex flex-row items-center justify-center  cursor-pointer'>
+            <div className=' inline-flex flex-row items-center justify-center pt-3 pr-2 md:p-1 md:pr-4 cursor-pointer'>
                 {theme === 'light' ? (
                     <button onClick={handleThemeSwitch}><BsFillMoonFill className='w-7 h-7 text-gray-800' /></button>
                 ) : (
-                    <button onClick={handleThemeSwitch}><BsSunFill className='w-8 h-8 text-gray-300' /></button>
+                    <button onClick={handleThemeSwitch}><BsSunFill className='w-8 h-8 text-gray-800' /></button>
                 )}
             </div>
 
