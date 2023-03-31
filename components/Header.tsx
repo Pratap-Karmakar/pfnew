@@ -5,8 +5,6 @@ import { BsFillMoonFill, BsSunFill } from 'react-icons/Bs';
 
 
 
-
-
 type Props = {}
 
 export default function Header({ }: Props) {

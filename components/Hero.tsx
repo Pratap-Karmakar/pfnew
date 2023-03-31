@@ -8,7 +8,7 @@ type Props = {}
 export default function Hero({ }: Props) {
     return (
         <div>
-            <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-32 h-32 top-10 md:top-14 overflow-hidden md:h-60 md:w-60 '>
+            <div className='relative mx-auto bg-gradient-to-b from-teal-500  rounded-full w-32 h-32 top-10 md:top-14 overflow-hidden md:h-60 md:w-60 '>
             <Image src={avatar} layout='fill' objectFit='cover' alt='Avatar Image'/>
           </div>
         <div className='text-center py-6 mt-8 md:p-0 md:mt-10'>
